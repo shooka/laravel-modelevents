@@ -1,0 +1,20 @@
+{
+  "name": "shooka/laravel-modelevents",
+  "description": "Let a service provider handle your model event listeners",
+  "keywords": ["models", "events", "external", "listeners", "laravel"],
+  "homepage": "https://github.com/shooka/laravel-modelevents",
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Nicolai Østby",
+	  "email": "nicolaiostby@gmail.com"
+	}
+  ],
+  "require": {
+	"php": ">=5.3.0",
+	"laravel/framework": "5.*"
+  },
+  "autoload": {
+	"psr-4": {"Shooka\\ModelEvents\\": "src/"}
+  }
+}
