@@ -6,7 +6,7 @@ use Shooka\ModelEvents\ModelEvent;
 
 class CreatingPersonEvent extends ModelEvent
 {
-    public function handle($person)
+    public function creating(Person $person)
     {
         if(!$person->name) {
             return false;
