@@ -11,7 +11,7 @@ class ModelEventServiceProvider extends ServiceProvider
     public function boot()
     {
         foreach ($this->listeners() as $model => $listeners) {
-            foreach ($listeners as $listener) {
+            foreach ((array)$listeners as $listener) {
                 $model::observe($listener);
             }
         }

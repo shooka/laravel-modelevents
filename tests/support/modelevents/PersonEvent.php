@@ -4,7 +4,7 @@ namespace Shooka\ModelEvents\Tests;
 
 use Shooka\ModelEvents\ModelEvent;
 
-class CreatingPersonEvent extends ModelEvent
+class PersonEvent extends ModelEvent
 {
     public function creating(Person $person)
     {
