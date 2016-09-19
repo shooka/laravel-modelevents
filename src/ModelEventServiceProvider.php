@@ -34,11 +34,11 @@ class ModelEventServiceProvider extends ServiceProvider
 
     protected function simpleProviderPath()
     {
-        return __DIR__ . '/publishes/ServiceProvider.php';
+        return __DIR__ . '/stubs/provider.stub';
     }
 
     protected function simpleEventPath()
     {
-        return __DIR__ . '/publishes/UserEvent.php';
+        return __DIR__ . '/stubs/event.stub';
     }
 }
