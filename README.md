@@ -10,7 +10,7 @@ Have you ever wanted a place to put your eloquent model events? It is now easier
 Add this package to your Laravel project by running:
 
 ```bash
-composer require shooka/laravel-modelevents 0.2.*
+composer require shooka/laravel-modelevents 0.3.*
 ```
 
 To publish the necessary files, add the ServiceProvider to the array of providers in `config/app.php`:
