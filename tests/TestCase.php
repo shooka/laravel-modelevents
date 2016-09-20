@@ -4,7 +4,7 @@ namespace Shooka\ModelEvents\Tests;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
-    use \Illuminate\Foundation\Testing\DatabaseTransactions;
+    use \Illuminate\Foundation\Testing\DatabaseMigrations;
 
     public function setUp()
     {
@@ -21,7 +21,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
         $app['config']->set('database.default', 'testbench');
         $app['config']->set('database.connections.testbench', [
             'driver'   => 'sqlite',
-            'database' => ':memory:',
+            'database' => __DIR__ . '/test.db',
             'prefix'   => '',
         ]);
     }
