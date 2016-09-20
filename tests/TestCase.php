@@ -4,7 +4,7 @@ namespace Shooka\ModelEvents\Tests;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
-    use \Illuminate\Foundation\Testing\DatabaseTransactions;
+    use \Illuminate\Foundation\Testing\DatabaseMigrations;
 
     public function setUp()
     {
