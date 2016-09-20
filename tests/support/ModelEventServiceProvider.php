@@ -7,7 +7,6 @@ use Shooka\ModelEvents\ServiceProvider;
 class ModelEventServiceProvider extends ServiceProvider
 {
     protected $listeners = [
-        Person::class => PersonEvent::class
-        
+        Person::class => PersonEvent::class,
     ];
 }

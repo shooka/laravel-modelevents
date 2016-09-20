@@ -14,7 +14,7 @@ class ModelEventServiceProviderTest extends TestCase
     /** @test */
     public function it_should_not_save_when_person_has_no_name()
     {
-        $person = new Person;
+        $person = new Person();
         $saved = $person->save();
 
         $this->assertFalse($saved);
@@ -34,7 +34,7 @@ class ModelEventServiceProviderTest extends TestCase
     public function it_should_save_when_person_has_no_name_and_the_listeners_are_flushed()
     {
         Person::flushEventListeners();
-        $person = new Person;
+        $person = new Person();
         $saved = $person->save();
 
         $this->assertTrue($saved);
