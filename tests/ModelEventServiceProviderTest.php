@@ -2,11 +2,8 @@
 
 namespace Shooka\ModelEvents\Tests;
 
-use Illuminate\Foundation\Testing\DatabaseMigrations;
-
 class ModelEventServiceProviderTest extends TestCase
 {
-    use DatabaseMigrations;
 
     /** @test */
     public function it_loads_the_specified_listeners()
