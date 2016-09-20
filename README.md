@@ -15,13 +15,13 @@ composer require shooka/laravel-modelevents 0.3.*
 
 To publish the necessary files, add the ServiceProvider to the array of providers in `config/app.php`:
 ```php
-Shooka\ModelEvents\ModelEventServiceProvider::class,
+Shooka\ModelEvents\ServiceProvider::class,
 ```
 
 Next, publish the files by running:
 
 ```bash
-php artisan vendor:publish --provider="Shooka\ModelEvents\ModelEventServiceProvider"
+php artisan vendor:publish --provider="Shooka\ModelEvents\ServiceProvider"
 ```
 
 This publishes two files:
@@ -37,5 +37,5 @@ App\Providers\ModelEventServiceProvider::class,
 And at the same time remove the first one from the array:
 
 ```php
-Shooka\ModelEvents\ModelEventServiceProvider::class,
+Shooka\ModelEvents\ServiceProvider::class,
 ```

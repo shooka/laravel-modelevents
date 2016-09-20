@@ -2,7 +2,7 @@
 
 namespace Shooka\ModelEvents\Tests;
 
-use Shooka\ModelEvents\ModelEventServiceProvider as ServiceProvider;
+use Shooka\ModelEvents\ServiceProvider;
 
 class ModelEventServiceProvider extends ServiceProvider
 {
