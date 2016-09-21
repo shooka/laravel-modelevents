@@ -1,12 +1,15 @@
 {
   "name": "shooka/laravel-modelevents",
-  "description": "Let a service provider handle your model event listeners",
+  "description": "Let a service provider handle your model events",
   "keywords": [
-	"models",
+	"laravel",
+	"model",
 	"events",
-	"external",
+	"event",
+	"eloquent",
 	"listeners",
-	"laravel"
+	"observe",
+	"listen"
   ],
   "homepage": "https://github.com/shooka/laravel-modelevents",
   "license": "MIT",
