@@ -1,7 +1,11 @@
 # Laravel ModelEvents
 
-[![Build Status](https://travis-ci.org/shooka/laravel-modelevents.svg?branch=develop)](https://travis-ci.org/shooka/laravel-modelevents)
-[![Coverage Status](https://coveralls.io/repos/shooka/laravel-modelevents/badge.svg?branch=develop)](https://coveralls.io/r/shooka/laravel-modelevents?branch=develop)
+[![Build Status](https://travis-ci.org/shooka/laravel-modelevents.svg?branch=master)](https://travis-ci.org/shooka/laravel-modelevents)
+[![Coverage Status](https://coveralls.io/repos/shooka/laravel-modelevents/badge.svg?branch=master)](https://coveralls.io/r/shooka/laravel-modelevents?branch=master)
+[![Total Downloads](https://poser.pugx.org/shooka/laravel-modelevents/d/total.svg)](https://packagist.org/packages/shooka/laravel-modelevents)
+[![Latest Stable Version](https://poser.pugx.org/shooka/laravel-modelevents/v/stable.svg)](https://packagist.org/packages/shooka/laravel-modelevents)
+[![Latest Unstable Version](https://poser.pugx.org/shooka/laravel-modelevents/v/unstable.svg)](https://packagist.org/packages/shooka/laravel-modelevents)
+[![License](https://poser.pugx.org/shooka/laravel-modelevents/license.svg)](https://packagist.org/packages/shooka/laravel-modelevents)
 
 Have you ever wondered where to put your eloquent model events? It is now easier than ever to apply listeners to your models.
 
