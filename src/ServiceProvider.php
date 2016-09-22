@@ -2,9 +2,7 @@
 
 namespace Shooka\ModelEvents;
 
-use Illuminate\Support\ServiceProvider;
-
-class ModelEventServiceProvider extends ServiceProvider
+class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     protected $listeners = [];
 

@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use Shooka\ModelEvents\ModelEventServiceProvider as ServiceProvider;
+use Shooka\ModelEvents\ServiceProvider;
 
 class ModelEventServiceProvider extends ServiceProvider
 {
